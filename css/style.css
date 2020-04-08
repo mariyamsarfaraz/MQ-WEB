@@ -1,0 +1,156 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link{
+    font-size: 20px !important;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.navbar .nav-item .nav-link:hover{
+    transition: 0.8s;
+    color: #fff;
+}
+
+.navbar .nav-item.active{
+    border-left:#444 3px solid;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fa-heart-o{
+    margin: 3px;
+    color: #17a2b8;
+}
+.mynav .fa{
+    margin-right: 8px;
+    font-size: 25px;
+}
+.mynav{
+    font-size: 25px;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url(../image/image1.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../image/image2.jpg);
+    background-size: cover;
+}.carousel-image-3{
+    background: url(../image/image3.jpg);
+    background-size: cover;
+}
+#home-icons{
+    background-color: #efefef;
+}
+.iconssetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+ .fa-cog{
+    margin-top: 25px;
+  }
+  .fa-cloud{
+    margin-top: 25px;
+  }  
+  .fa-cart-plus{
+    margin-top: 25px;
+  }
+.rowsetting{
+    margin-top: 40px;
+    padding: 20px;
+}
+.rowsetting h3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    color: #6c757d !important;
+    padding: 10px;
+
+}
+ .iconssetting i:hover{
+    color: #6c757d;
+    transition: 0.8s;
+}
+.rowsetting .col-md-4:hover{
+    background: skyblue;
+    height: auto;
+    padding-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.9s;
+
+}
+.rowsetting p .col-md-4:hover{
+    color: white;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url(../image/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+#info{
+    background-color: #efefef;
+}
+#info h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#info p{
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url(../image/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a{
+    color: #fff;
+}
+
+#newsletter{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), gray;
+    border-bottom:2px solid #17a2b8;
+}
+
+#main-footer strong:hover{
+    color: #17a2b8;
+}
+
+
+
+
+
+
+
+
