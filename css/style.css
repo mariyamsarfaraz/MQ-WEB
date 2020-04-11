@@ -87,7 +87,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.9s;
-
+    transform: translateY(-20px);
 }
 .rowsetting p .col-md-4:hover{
     color: white;
